@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: sans-serif, source code pro, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.nav-container{
+    width: 100%;
+    height: 110px;
+    background: linear-gradient(35deg, rgba(0,0,0,.1),rgba(0,0,0,.1));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    z-index: 1;
+    position: absolute;
+    top: -10px;
+}
+.nav-container .logo{
+    width: 250px;
+}
+.nav-container .logo img {
+    border-radius: 50%;
+}
+img{
+    width: 100%;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: black;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: .5s;
+    margin: 0 10px;
+}
+
+.nav-bar ul li a:hover {
+    color: black;
+    background: white;
+}
+.in2{
+    height: 90px;
+    border-radius: 50px;
+    border: none;
+}
+.in1{
+    height: 90px;
+    border-radius: 50px;
+    border: none; 
+    
+}
+.in0{
+    display: flex;
+    position: relative;
+    top: -10px;
+}
+.rech{
+    background-color: orange;
+    border-radius: 20px;
+    border: transparent;
+    height: 38px;
+    margin-top: 0px;
+    margin-left: 10px;
+    padding: 0px 10px;
+}
+input{
+    height: 38px;
+    border-radius: 20px;
+    border: transparent;
+    margin-left: 15px;
+    text-indent: 12px;
+    outline: none;
+}
+
+.sm{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.sm:hover{
+    height: 10%;
+}
+
+.fn{
+    width: 100%;
+    height: auto;
+    background-color: azure;
+}
+
+.containerh{
+    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/tp.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles du menu */
+  nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .menu {
+    list-style-type: none;
+    float: right;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  .menu li a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Styles du contenu principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Styles du footer */
+  footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+
+.containerh img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.panier{
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-top: -43px;
+    position: relative;
+    z-index: 1;
+}
+
+.panier p{
+    margin-left: 55px;
+    margin-top: -35px;
+}
+
+.texte p{
+    font-size: 70px;
+    margin-left: 30px;
+    margin-top: 220px;
+    font-style: italic;
+    font: bold;
+}
+
+
+.propos h3{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+    position: relative;
+    top: 103px;
+    
+}
+
+.propos p{
+    margin-left: 0px;
+    margin-top: -30px;
+    font-size: 15px;
+    color: #555;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 40px;
+    padding: 12px;
+    width: 100%;
+}
+
+.card{
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, .3);
+    margin: 10px 15px;
+    left: -35px;
+    transition: 0.3s;
+    top: 100px;
+    border-radius: 8px;
+}
+.card:hover{
+    top: -5px; 
+    transition: 0.3s; 
+}
+
+.card1{
+    display: inline-block;
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, .3);
+    margin: 10px 15px;
+    left: -50px;
+    transition: 0.3s;
+    top: 0;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 40px;
+    padding: 12px;
+    width: 100%;
+}
+
+.articleimg{
+    display: block;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    background: #f1f1f1;
+}
+
+.articleimg img{
+    object-fit: cover;
+    width: 100%;
+    min-height: 310px;
+}
+
+.articletitle{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.articleprice{
+    display: block;
+    font-size: 18px;
+    color: rgb(35, 36, 37);
+    margin: 10px;
+}
+
+/* .card:hover{
+    top: -20px;  
+} */
+
+  
+  @keyframes slides {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    top: 100px;
+  }
+  
+  .slides {
+    animation-name: fade;
+    animation-duration: 3s;
+    display: none;
+    display: flex;
+    width: 400%;
+    height: 100%;
+    transition: transform 0.6s ease-in-out;
+  }
+  
+  .slides img {
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .prev,
+  .next {
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .prev i,
+  .next i {
+    color: #fff;
+    font-size: 20px;
+  }
+
+
+/*propriete des explications au dessus des articles*/
+.explication1{
+    height: 350px;
+    width: 300px;
+    position: relative;
+    
+    left: 80px;
+    bottom: 355px;
+    
+    
+    background-color: rgba(206, 178, 233,0.5);
+}
+
+/* permet de positionner le texte */
+.position{
+    position: relative;
+    top: 80px;
+    z-index: 500;
+}
+/*permet de gerer les proprietes du button*/
+.button1{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+.button1:hover{
+    cursor: pointer;
+}
+.explication2{
+    height: 350px;
+    width: 300px;
+    position: relative;
+   
+    left: 504px;
+    bottom: 352px;
+    z-index: 500;
+    
+    background-color: rgba(206, 178, 233,0.5);
+}
+
+/*propriete pour les seconds produits*/
+.deuxieme{
+    width: 100%;
+    height: 450px;
+   
+}
+.second{
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 90px;
+    z-index: 1000;
+}
+.second:hover{
+    z-index: 400;
+}
+.second1{
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 150px;
+    z-index: 1000;
+}
+button{
+    display: block;
+    width: 260px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: #09f;
+    color: #fff;
+    margin: 0px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.old-price {
+    text-decoration: line-through;
+    color: red;
+    margin: -3px;
+    padding: 10px;
+  }
+  #footer {
+    background: #eaeaea;
+}
+#footer {
+    background: #eee;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code, command, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, object, ol, output, p, pre, progress, q, s, samp, section, small, span, source, strike, strong, sub, sup, table, tbody, tfoot, thead, th, tr, tdvideo, tt, u, ul, var {
+    background: transparent;
+    border: 0 none;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video, main {
+    display: block;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.bb{
+    background: #09f;
+}

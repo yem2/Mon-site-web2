@@ -1,0 +1,107 @@
+/*Pour la police d'écriture google font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    background-color: #754ef9;
+    position: relative;
+}
+
+
+.contenu
+{
+    margin-top: 3%;
+    /*border: 2px solid red;*/
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.img1
+{
+    width: 30%;
+    height: auto;
+}
+.mybody
+{
+    justify-content: space-around;
+    width: 40%;
+    height: 75vh;
+    width: 80vh;
+    border: 2px solid rgb(219, 223, 208);
+    margin-top: 4%;
+    margin-left: 8%;
+    background-color: #fff;
+    border-radius: 15%;
+    position: relative;
+
+}
+
+.ok
+{
+    margin-top: 8%;
+    border-radius: 15%;
+    height: auto;
+    width: 100%;
+}
+.wellform-inlinepull-leftcol-lg-5
+{
+    padding-left: 0%;
+    border: 2px dashed #754ef9;
+}
+body {
+    background-image: linear-gradient(45deg,#fff, #754ef9); /* Couleur de fond */
+    animation: backgroundAnimation 10s infinite alternate; /* Animation */
+}
+
+@keyframes backgroundAnimation {
+    10% { background-position: 10% 30%; }
+    100% { background-position: 60% 30%; }
+}
+.container
+{
+    margin-top: 8%;
+    border-radius: 5%;
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+h1{
+    text-align: center;
+    color: #754ef9;
+}
+h2{
+    color: black;
+}
+button{
+    position:absolute;
+    display: block;
+    width: 260px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: #09f;
+    color: #fff;
+    margin: 0px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
